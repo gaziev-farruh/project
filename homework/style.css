@@ -11,6 +11,15 @@ h1 {
   font-weight: bold;
 }
 
+.bg_image {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-55%) translateY(-10%) scale(-1);
+  color: transparent;
+}
+
 .button {
   background-color: blue;
   color: white;
@@ -42,7 +51,7 @@ h1 {
 
 .april {
   display: grid;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .footer {
