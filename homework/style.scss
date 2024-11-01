@@ -1,0 +1,59 @@
+$primary-color: #3498db;
+$primary-h1: #2563eb;
+$primary-h2: #2563eb;
+$primary-p: #1e3a8a;
+
+
+body {
+  color: $primary-color;
+}
+p {
+  color: $primary-p;
+}
+h1 {
+  color: $primary-h1;
+  font-weight: bold;
+}
+@mixin button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+}
+
+.button {
+  @include button
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-around;
+  // background-color: chartreuse;
+}
+
+.img {
+  width: 100px;
+} 
+
+.design {
+width: 50%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: $primary-h1;
+  }
+}
+.april {
+  display: grid;
+  margin-top: 50px;
+}
+
+.footer {
+display: flex;
+justify-content: space-around;
+background-color: brown;  
+}
